@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Water+Brush&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.logo {
+  font-family: "Clicker Script", cursive;
+  font-size: 35px;
+  color: rgba(238, 28, 69, 1);
+  margin-top: 21px;
+  margin-left: 93px;
+  display: inline-block;
+}
+
+.pclass-top,
+.h-text, .city-name-m, .sity-name-d,.sity-name-g, .sity-name-s {
+  font-family: "Water Brush", cursive;
+  color: rgba(255, 255, 255, 1) ;
+}
+
+header{
+  position: sticky;
+  top: 0%;
+}
+
+body,
+.dest {
+  font-family: "Work Sans", sans-serif;
+}
+
+.list-items {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.box-1 {
+  margin-left: 167px;
+}
+
+.box-7 {
+  margin-left: 141px;
+}
+
+.logini {
+  background: linear-gradient(
+    90deg,
+    rgba(205, 26, 64, 1) 0%,
+    rgba(255, 128, 60, 1) 74%);
+  width: 100px;
+  height: 48px;
+  display: inline-block;
+  border-radius: 18px;
+  margin-left: 33px;
+  padding: 14px;
+}
+.text {
+  color: rgba(255, 255, 255, 1);
+}
+.hiro-section {
+  border: 2px solid red;
+  background-image: url("../images/main-img.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 768px;
+  width: 100%;
+}
+
+.pclass-top {
+  color: rgba(255, 255, 255, 1);
+  font-size: 46px;
+  font-weight: 400;
+  margin-top: 209px;
+  margin-left: 93px;
+  margin-bottom: 16px;
+}
+
+.hclass {
+  font-size: 86px;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 93px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.pclass {
+  display: inline-block;
+  width: 580px;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 93px;
+  font-size: 16px;
+}
+
+.destination-box {
+  width: 400px;
+  height: 80px;
+  margin: auto;
+  margin-top: 76px;
+  margin-bottom: 36px;
+}
+
+.h-text {
+  font-weight: 400px;
+  font-size: 46px;
+  color: rgba(205, 26, 64, 1);
+  text-align: center;
+  
+}
+
+.dest{
+font-size: 64px;
+text-align: center;
+font-weight: 200;
+color: rgba(30, 30, 30, 1);
+margin-top: 8px;
+text-transform: uppercase;
+
+}
+
+.mtavari-divi{
+  width: 1180px;
+  height: 626px;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+
+}
+
+.malaysia{
+width: 580px;
+height: 626px;
+position: absolute;
+left: 0%;
+display: inline-block;
+background:linear-gradient( rgba(30,30,30,0.56)),  url("../images/malaysia-img.jpg");
+background-size: cover;
+}
+
+.dubai{
+  width: 280px;
+  height: 306px;
+  position: absolute;
+  left: 600px;
+  display: inline-block;
+  background:linear-gradient( rgba(30,30,30,0.56)), url("../images/dubai-img.jpg");
+  background-size: cover;
+}
+
+.greec{
+   border: 1px solid red;
+  width: 280px;
+  height: 306px;
+  position: absolute;
+  right: 0%;
+  display: inline-block;
+  background:linear-gradient( rgba(30,30,30,0.56)), url("../images/greec-img.jpg");
+  background-size: cover;
+}
+
+
+/* წარწერა ვე ჩავსვი თავის ჩარჩოში */
+.singapore{   
+   width: 580px;
+   height: 306px;
+   position: absolute;
+   bottom: 0%;
+   right: 0%;
+   display: inline-block;
+   background:linear-gradient( rgba(30,30,30,0.56)), url("../images/singapore-img.jpg");
+   background-size: cover;
+}
+
+.btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+
+.city-name-m{
+  font-size: 46px;
+  
+}
+
+.sity-name-d{
+   font-size: 46px;
+}
+
+.sity-name-g{
+  font-size: 46px;
+}
+
+.singapore{
+  font-size: 46px;
+}
+
+.card-btn{
+
+  background: linear-gradient(
+    90deg,
+    rgba(205, 26, 64, 1) 0%,
+    rgba(255, 128, 60, 1) 74%);
+  width: 100px;
+  height: 48px;
+  display: inline-block;
+  border-radius: 18px;
+  margin-left: 33px;
+  padding: 16px 17px;
+color: #fff;
+
+}
+
+.fixebi{
+  font-size: 45px;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  display: inline-block;
+}
